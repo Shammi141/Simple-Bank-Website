@@ -21,10 +21,11 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 // Don't verify email, password on the client side. Now it's just for learning purpose
 //step4: verify email, password
     if(email == 'shammi@gmail.com' && password == 'Shammi'){
-        console.log('Valid user');
+        //console.log('Valid user');
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('Invalid user');
+        alert('Enter your correct information!');
     }
 
 });

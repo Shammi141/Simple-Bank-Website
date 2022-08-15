@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Bank Page</title>
+
+    <!-- tailwind script added -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- header  section started -->
+    <header>
+        <h1 class="text-5xl text-center mt-6 mb-12">Let's Check Your <span
+                class="font-semibold text-violet-600">Money!</span></h1>
+    </header>
+    <main>
+        <!-- deposit, withdraw, balance section started -->
+        <section class="mt-12 ">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-green-400 p-8 rounded-xl">
+                    <h4 class="text-2xl">Deposit Money</h4>
+                    <h2 class="text-5xl">$00</h2>
+                </div>
+                <div class="bg-pink-400 p-8 rounded-xl">
+                    <h4 class="text-2xl">Withdraw Money</h4>
+                    <h2 class="text-5xl">$00</h2>
+                </div>
+                <div class="bg-violet-500 p-8 rounded-xl">
+                    <h4 class="text-2xl">Total Balance</h4>
+                    <h2 class="text-5xl">$1240</h2>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- add money and withdraw money section started  -->
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-fuchsia-400 p-8 rounded-xl">
+                    <h4 class="text-2xl mb-4">Please Deposit </h4>
+
+                    <input class="w-9/12 block mb-2 px-3" type="" name="" id="" placeholder="Enter your $ amount to deposit">
+                    <button id="btn-deposit" class="bg-amber-600 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-lg ">Deposit</button>
+
+                </div>
+                <div class="bg-sky-400 p-8 rounded-xl">
+                    <h4 class="text-2xl mb-4">Withdraw Money</h4>
+                    
+                    <input class="w-9/12 block mb-2 px-3" type="" name="" id="" placeholder="Enter your $ amount to withdraw">
+                    <button id="btn-withdraw"
+                        class="bg-amber-600 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-lg ">Withdraw</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
